@@ -1,0 +1,17 @@
+
+#weatherFive {
+    border-style: solid;
+    height: 20vh;
+}
+
+#sidebar {
+    border-style: solid;
+    height: 100vh;
+}
+
+#current {
+    height: 40vh;
+    border-style: solid;
+    flex-direction: column;
+}
+

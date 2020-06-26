@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+</head>
+
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Weather Dashboard</h1>
+        <p class="lead">Welcome to Current Weather and a Five Day Forecast!</p>  
+        <p>Please enter a city and click the Submit Button.</p>   
+    </div>
+
+
+    <div class="row">
+    <div class="col-md-3" id="sidebar">
+        <input type="text" id="input"> 
+        <button id="submitBtn">Submit</button>
+        <div>
+            <ul class="history"></ul>
+        </div>
+    </div>
+
+
+    <div class="col-md-9">
+        <div class="row" id="today">
+           <div><h2>Current Weather</h2></div>
+           <h3>City: <span id="city"></span></h3>
+           <div><h4>Temperature: </h4></div>
+           <br>
+           <div><h4>Humidity: </h4></div>
+           <br>
+           <div><h4>Wind Speed: </h4></div>
+           <br>
+           <div><h4>UV Index: </h4></div>          
+        </div>
+    <div id="forecast">
+        <div class="row"></div>
+    </div>
+       
+    </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js"></script>
+</body>
+
+</html>
